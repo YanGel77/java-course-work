@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controller">
+   <children>
+      <Label layoutX="312.0" layoutY="31.0" text="Contracts">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="contracts_idcontract_textfield" layoutX="75.0" layoutY="95.0" promptText="ID_Contract" />
+      <TextField fx:id="contracts_iddeposit_textfield" layoutX="437.0" layoutY="166.0" promptText="ID_deposits" />
+      <TextField fx:id="contracts_idperson_textfield" layoutX="437.0" layoutY="230.0" promptText="ID_person" />
+      <TextField fx:id="contracts_accountnumber_textfield" layoutX="437.0" layoutY="298.0" promptText="Account_number" />
+      <TextField fx:id="contracts_amount_textfield" layoutX="75.0" layoutY="166.0" promptText="Amount" />
+      <TextField fx:id="contracts_conclusion_textfield" layoutX="75.0" layoutY="230.0" promptText="Date_of_conclusion" />
+      <TextField fx:id="contracts_expiration_textfield" layoutX="75.0" layoutY="298.0" promptText="Expiration_date " />
+      <Button fx:id="contracts_add_button" layoutX="312.0" layoutY="342.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="64.0" text="Add" />
+   </children>
+</AnchorPane>
