@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controller">
+   <children>
+      <Label layoutX="308.0" layoutY="40.0" text="Individuals">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="individuals_idperson_textfield" layoutX="276.0" layoutY="132.0" promptText="ID_person" />
+      <TextField fx:id="individuals_identificationnumber_textfield" layoutX="276.0" layoutY="188.0" promptText="Identification_Number" />
+      <Button fx:id="individuals_add_button" layoutX="319.0" layoutY="267.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="62.0" text="Add" />
+   </children>
+</AnchorPane>
