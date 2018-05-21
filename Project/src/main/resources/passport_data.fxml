@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controllers.PassportDataController">
+   <children>
+      <Label layoutX="296.0" layoutY="47.0" text="Passport data">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passport_name_textfield" layoutX="108.0" layoutY="136.0" promptText="Name " />
+      <TextField fx:id="passport_identificatonnumber_textfield" layoutX="443.0" layoutY="285.0" promptText="Identification_Number" />
+      <TextField fx:id="passport_series_textfield" layoutX="443.0" layoutY="213.0" promptText="Passport_series" />
+      <TextField fx:id="passport_number_textfield" layoutX="443.0" layoutY="136.0" promptText="Passport_number" />
+      <TextField fx:id="passport_lastname_textfield" layoutX="108.0" layoutY="213.0" promptText="Last_Name" />
+      <TextField fx:id="passport_middlename_textfield" layoutX="108.0" layoutY="285.0" promptText="Middle_Name" />
+      <Button fx:id="passport_add_button" layoutX="324.0" layoutY="322.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="53.0" text="Add" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controllers.DepositsController">
+   <children>
+      <Label layoutX="238.0" layoutY="30.0" text="Ввод Депозита">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="deposits_iddeposits_textfield" layoutX="54.0" layoutY="88.0" promptText="ID_deposits" />
+      <TextField fx:id="deposits_minimum_textfield" layoutX="404.0" layoutY="140.0" promptText="Minimum_amount" />
+      <TextField fx:id="deposits_conditions_textfield" layoutX="54.0" layoutY="140.0" promptText="Сonditions_for_individuals" />
+      <TextField fx:id="deposits_minimumperiod_textfield" layoutX="404.0" layoutY="188.0" promptText="Minimum_period" />
+      <TextField fx:id="deposits_interest_textfield" layoutX="404.0" layoutY="225.0" promptText="Interest_rate" />
+      <TextField fx:id="deposits_possibilityofearly_textfield" layoutX="404.0" layoutY="266.0" promptText="Possibility_of_early_withdrawal" />
+      <TextField fx:id="deposits_interestrateonearly_textfield" layoutX="404.0" layoutY="311.0" promptText="Interest_rate_on_early_withdrawal" />
+      <TextField fx:id="deposits_currency_textfield" layoutX="54.0" layoutY="188.0" promptText="Currency" />
+      <TextField fx:id="deposits_start_textfield" layoutX="54.0" layoutY="225.0" promptText="Start_of_action" />
+      <TextField fx:id="deposits_expiration_textfield" layoutX="54.0" layoutY="266.0" promptText="Expiration " />
+      <TextField fx:id="deposits_possibilitytoreplenish_textfield" layoutX="54.0" layoutY="311.0" promptText="Possibility_to_replenish_the_deposit" />
+      <Button fx:id="deposits_add_button" layoutX="266.0" layoutY="336.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="ADD" />
+   </children>
+</AnchorPane>

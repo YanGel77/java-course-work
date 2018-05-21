@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controllers.LegalEntitiesController">
+   <children>
+      <Label layoutX="271.0" layoutY="42.0" text="Info of legal entities">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="legalentities_name_textfield" layoutX="77.0" layoutY="131.0" promptText="Name_of_legal_entities" />
+      <TextField fx:id="legalentities_vat_textfield" layoutX="77.0" layoutY="188.0" promptText="VAT_certificate_number" />
+      <TextField fx:id="legalentities_idperson_textfield" layoutX="77.0" layoutY="236.0" promptText="ID_person" />
+      <TextField fx:id="legalentities_codeedrpou_textfield" layoutX="77.0" layoutY="286.0" promptText="Code_EDRPOU" />
+      <Button fx:id="legalentities_add_button" layoutX="322.0" layoutY="325.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="56.0" text="Add" />
+   </children>
+</AnchorPane>

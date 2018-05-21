@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controllers.DepositOperationsController">
+   <children>
+      <Label layoutX="262.0" layoutY="30.0" text="Operations of Deposit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="depositoperation_idoperation_textfield" layoutX="87.0" layoutY="109.0" promptText="ID_operation" />
+      <TextField fx:id="depositoperation_dataofoperation_textfield" layoutX="438.0" layoutY="287.0" promptText="Date_of_operation" />
+      <TextField fx:id="depositoperation_idcontract_textfield" layoutX="438.0" layoutY="200.0" promptText="ID_Сontract " />
+      <TextField fx:id="depositoperation_typeoftransaction_textfield" layoutX="87.0" layoutY="200.0" promptText="Type_of_transaction" />
+      <TextField fx:id="depositoperation_amount_textfield" layoutX="87.0" layoutY="287.0" promptText="Amount_of_transaction" />
+      <Button fx:id="depositoperation_add_button" layoutX="320.0" layoutY="321.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="60.0" text="Add" />
+   </children>
+</AnchorPane>

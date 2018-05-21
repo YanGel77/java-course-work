@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.sample.Controllers.StreetsController">
+   <children>
+      <Label layoutX="323.0" layoutY="38.0" text="Streets">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="streets_idstreets_textfield" layoutX="102.0" layoutY="113.0" promptText="ID_streets" />
+      <TextField fx:id="streets_name_textfield" layoutX="102.0" layoutY="160.0" promptText="Name" />
+      <TextField fx:id="streets_idtypesofstreets_textfield" layoutX="102.0" layoutY="212.0" promptText="ID_types_of_streets" />
+      <TextField fx:id="streets_idsettlements_textfield" layoutX="102.0" layoutY="270.0" promptText="ID_settlements" />
+      <Button fx:id="streets_add_button" layoutX="323.0" layoutY="323.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="55.0" text="Add" />
+   </children>
+</AnchorPane>
